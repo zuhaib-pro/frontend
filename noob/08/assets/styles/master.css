@@ -1,0 +1,73 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0a0a0a;
+  /* Dark background */
+  color: #fff;
+  /* White text */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #222;
+  /* Dark gray container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  /* Glowing effect */
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0ff;
+  /* Neon blue */
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #0ff;
+  /* Neon blue bottom border */
+  background-color: transparent;
+  color: #fff;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0ff;
+  /* Neon blue */
+  color: #000;
+  /* Black text */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00f;
+  /* Darker blue on hover */
+}

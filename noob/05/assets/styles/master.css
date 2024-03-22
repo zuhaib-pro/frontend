@@ -1,0 +1,42 @@
+/* Global styles */
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  /* Golden yellow */
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: 10px solid #555;
+  /* Dark gray border */
+  box-shadow: 0 0 10px #000;
+  /* Black shadow */
+}
